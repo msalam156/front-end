@@ -1,0 +1,108 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --light: #f8fafb;
+    --dark: #c9c9c9;
+    --black:#000000;
+    --darkbrown : #3C2A21;
+    --lighbrown: #E5E5CB;
+    --extradark: #1A120B;
+  }
+
+.container{
+    background-color: var(--light);
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    
+}
+label{
+    font-weight: bold;
+}
+img{
+    width: 50%;
+    margin-left: 22%;
+}
+.width100{
+    width: 100%;
+   
+}
+.loginbtn{
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+    background-color:#04AA6D;
+    color: white;
+    border: none;
+}
+.usrpass{
+    /* margin-top: 10px; */
+    font-size: 20px;
+}
+.chkbox{
+    margin-top: 15px;
+}
+.foot{
+    margin-top: 20px;
+    background-color: var(--dark);
+}
+.right{
+    float: right;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.btn{
+    padding: 8px;
+    margin: 9px 0px 0px 6px;
+    width: 70px;
+    background-color: red;
+    color: var(--light);
+    border: none;
+    font-weight: bold;
+}
+
+/* request page */
+nav{
+    background-color: var(--extradark);
+    color: var(--lighbrown);
+    margin: auto;
+    height: 102px;
+    text-align: center;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 49%;
+    margin-top: 13px;
+
+}
+.rights{
+    float: right;
+}
+nav > h2 {
+    padding-top: 8px;
+    display: inline-block;
+}
+.rights > a {
+    color: var(--lighbrown);
+   
+}
+.center{
+    text-align: center;
+}
+.conta{
+    background-color: var(--darkbrown);
+    color: var(--lighbrown);
+    height: 100vh ;
+}
+.rbtn{
+    padding: 10px;
+    margin-top: 13px;
+    background: #76503d;
+    color: #bfbfac;
+    border: 2px solid var(--extradark);
+    border-radius: 20px;
+    width: 146px;
+}

@@ -1,0 +1,35 @@
+body{
+    font-family:cursive
+}
+
+:root {
+    --blue: #7d8792;
+    --white: #ffffff;
+    --black:#000000;
+    --background :#f8fafb;
+
+  }
+.container{
+    position: relative;
+    top: 20px;
+    width: 25%;
+    background-color: var(--blue);
+    margin:auto;
+    padding:50px;
+    border: 6px double var(--black);
+    border-radius: 10px;
+}
+form>h2{
+    text-align: center;
+}
+.form-item{
+    box-sizing: border-box;
+    margin:15px;
+    /* background-color: var(--white); */
+}
+.form-item>label{
+    display: block;
+}
+.form-item>input[type="text"]{
+    width: 100%;
+}
