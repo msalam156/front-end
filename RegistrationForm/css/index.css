@@ -1,0 +1,54 @@
+:root{
+    --lightgray : #F3EFE0;
+    --darkgray : #434242;
+    --extradark : #222222;
+    --grrenish :#22A39F;
+}
+body{
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--extradark);
+    font-family: Libre Baskerville;
+    
+}
+.container{
+    background-color: var(--darkgray);
+    color: var(--lightgray);
+    width: 41vw;
+    height: 40vw;
+    margin: auto;
+    margin-top: 5vh;
+    border-radius: 6vh;
+    box-shadow: inset -1px 0px 13px 5px #888888;
+   
+}
+.form{
+    /* text-align: center; */
+}
+input{
+    width: 82%;
+    padding: 7px;
+    font-size: 18px;
+    margin: 3px 0px 0px 30px;
+    border-radius: 19px;
+    background-color: var(--extradark);
+    color: var(--lightgray);
+}
+label{
+    width: 22px;
+    margin: 7px 0px 0px 30px;
+}
+.btSub{
+    width: 21vh;
+    background-color: var(--grrenish);
+    /* margin-bottom: -33px; */
+    box-shadow: inset;
+    box-shadow: inset -1px 0px 13px 5px #000000;
+    height: 7vh;
+}
+.regish2{
+    text-align: center;
+    /* margin-top: 20px; */
+    font-size: 6vh;
+}

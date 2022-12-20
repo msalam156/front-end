@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Work</title>
+</head>
+<body>
+    <h2>Event and callbacks</h2>
+    <!--Enter name-->
+    <input type="text" name="" id="firstname" value="Mukit">
+    <!-- <button id="btnClick" onclick="handleClick()">Click Me</button> -->
+    <button id="btnClick">Click Me</button>
+    <script>
+
+      var handleClick = _=>{
+            alert(document.getElementById("firstname").value);
+        };
+        // add eventListener
+        var button = document.querySelector("#btnClick");
+        button.addEventListener('click',handleClick);
+
+
+
+
+        // json  can be created by using stringify()
+    //    let jsonString =  JSON.stringify(
+
+    //         {
+    //             "name":"Mukeet",
+    //             "age":"25",
+    //             "Address":{
+    //                 "district":"Saharanpur",
+    //                 "location":"Nissan"
+    //             },
+    //             "Qualificatio":{
+    //                 "course": "B.Tech",
+    //                 "Stream":"Computer Science"
+    //             }
+    //         }
+    //     );
+        //alert(jsonString);
+        // json can be parsed by using parse()
+        // var nameFromJson = JSON.parse(jsonString);
+       // alert(nameFromJson.Address.district);
+
+       /// Event and callbacks
+       ///////////////////////////////////////
+    /*
+    Event and callbacks 
+    --------------
+    An event occurs when the page load when user interact with page elements like click, hovers
+    change  ---- onClick(), onchange(), onhover(), onmousehover(),ondoubleclick(), onload(),
+    onmousemove();
+    JavaScript can listene to the event and execute a callback function.
+
+    Method1 - Event and callbacks -- direct clickEvent
+    Method2 - addEventListener()
+    */
+
+    </script>
+</body>
+</html>

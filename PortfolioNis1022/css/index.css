@@ -82,3 +82,32 @@ li:hover{
     color: var(--darkvoilet);
     border-radius: 14vh;
 }
+.mainHobbie{
+    background-color: var(--darkvoilet);
+    color: var(--grey);
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+   
+}
+.hobyImg{
+    width: 28vh;
+    height: 27vh;
+    border-radius: 13vh;
+}
+.hobbiecontainer{
+    border: 2px solid black;
+    display: flex
+}
+.frame{
+    border: 2px solid beige;
+    padding: 4px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.homebutton{
+    width: 2vh;
+    border: 2px solid;
+    padding: 1vh;
+    background-color: var(--yellow);
+}
