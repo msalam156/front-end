@@ -1,0 +1,82 @@
+:root {
+    --dark: #A555EC;
+    --light: #FFFFD0;
+    --mid: #F3CCFF;
+
+}
+
+body {
+    font-family: Unbounded;
+    color: var();
+    background-color: var(--mid);
+}   
+
+.main {
+
+    padding: 5vh;
+    margin: 7vh;
+}
+
+header {
+    display: flex;
+}
+
+header>img {
+    width: 24vh;
+    height: 10vw;
+    border-radius: 50%;
+    border: 2px solid var(--dark);
+}
+
+header>h2 {
+    margin: 8vh 0vh 0vh 10vh;
+    font-size: 5vh;
+}
+
+.newsSec {
+    padding: 4vh;
+    margin-top: 5vh;
+}
+
+.new {
+    border: 2px solid rgb(96, 13, 13);
+    ;
+}
+
+.details {
+    width: 78vw;
+margin-left: 4vh;
+padding-left: 6vh;
+box-shadow: -1px 0px 13px 5px;
+border-radius: 5vh;
+}
+
+.details>input {
+    margin: 2vh;
+    border: none;
+    border-bottom-style: dotted;
+    background-color: var(--mid);
+}
+
+#btn {
+    width: 17vh;
+height: 6vh;
+border: 2px solid;
+border-radius: 2vh;
+}
+
+#txtitle {
+    width: 65vh;
+}
+
+textarea {
+    width: 73vh;
+    height: 10vh;
+    border: 2px solid;
+    border-radius: 2vh;
+    background-color: #F3CCFF;
+}
+#btn:hover{
+    background-color: #323134;
+    width: 11vh;
+}
