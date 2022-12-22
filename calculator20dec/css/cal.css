@@ -1,0 +1,93 @@
+:root {
+    --dark: black;
+    --mid: cyan;
+    --light: pink;
+}
+
+
+/* .container {
+    border: 2px solid black;
+    width: 20%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    height: 50vh;
+    color: white;
+    background-color: black;
+}
+
+table {
+    border: 2px solid black;
+    margin: auto;
+}
+
+td {
+    border-radius: 50%;
+    background-color: gray;
+    
+
+}
+
+input[type=text] {
+    width: 100%;
+    height: 3vw;
+    font-weight: bolder;
+    background-color: var(--dark);
+    color: white;
+}
+.tdtext{
+    margin: 1px;
+    padding: 0vh;
+    background-color: white;
+    border: none;
+}
+.zero{
+    border-radius: 2vh;
+    border-radius: 7vh;
+} */
+
+/* this is style */
+body{
+    background-color: black;
+}
+table {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    padding: 10vh;
+    border-radius: 8vh;
+    box-shadow: inset 0px 7px 26px #F18D05;
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 20px 40px;
+    background-color: rgb(72, 72, 72);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8vh;
+}
+
+input[type="text"] {
+    padding: 20px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 32px;
+    background-color: black;
+    color: white;
+}
+#bg-grey{
+    background-color: rgb(196, 196, 196);
+    color: black;
+}
+#bgyellow{
+    background-color: #F18D05;
+}
+h1{
+    color: white;
+    text-align: center;
+}
